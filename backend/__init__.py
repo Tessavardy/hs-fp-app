@@ -11,7 +11,9 @@
 
 def process_user_query(query_string): ## query_string stores what the user enters on heruki
 
-list = ['Hi alex how are you']
-for word in list:
+list1 = ['Hi alex how are you']
+for word in list1:
     if word[0].isupper():
-        list.appned(word)
+        list1.append(word)
+
+print(list1)
