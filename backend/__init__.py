@@ -3,9 +3,9 @@ def process_user_query(query_string):
     list1 = []
     counter = 0
     for word in names:
-             if word == 'Google':
+             if word == names[0]:
                  counter += 1
-    list1.append(f' You have searched in google {counter} times')
+    list1.append(f' You have searched in {names[0]} {counter} times')
     if counter < 5:
         list1.append(f'Not too shabby')
     else:
@@ -13,7 +13,7 @@ def process_user_query(query_string):
     return(list1)
 
 
-print(process_user_query("hello google www.google.es www.google.es www.google.es google google "))
+print(process_user_query("hello google www.google.es www.google.es hello hello hello www.google.es google google "))
 
 
 # new_list=["Aaberg","Aalst","Aara","Aaren","Aarika","Aaron","Aaronson","Ab","Aba","Abad","Abagael","Abagail","Abana","Abate","Abba","Abbate","Abbe","Abbey","Abbi","Abbie","Abbot","Abbotsen","Abbotson","Abbotsun","Abbott","Abbottson","Abby","Abbye","Abdel","Abdella","Abdu","Abdul","Abdulla","Abe","Abebi","Abel","Abelard","Abell","Abercromby","Abernathy","Abernon","Abert","Abeu","Abey","Abie","Abigael","Abigail","Abigale","Abijah","Abisha","Abisia","Abixah","Abner","Aborn","Abott","Abra","Abraham","Abrahams","Abrahamsen","Abrahan","Abram","Abramo","Abrams","Abramson","Abran","Abroms","Absa","Absalom","Abshier","Acacia","Acalia","Accalia","Ace","Acey","Acherman","Achilles","Achorn","Acie","Acima","Acker","Ackerley","Ackerman","Ackler","Ackley","Acquah","Acus","Ad","Ada","Adabel","Adabelle","Adachi","Adah","Adaha","Adai","Adaiha","Adair","Adal","Adala","Adalai","Adalard","Adalbert","Adalheid","Adali","Adalia","Adaliah","Adalie","Adaline","Adall","Adallard","Adam","Adama","Adamec","Adamek"]
