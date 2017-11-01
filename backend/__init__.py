@@ -7,9 +7,9 @@ def process_user_query(query_string):
                  counter += 1
     list1.append(f' You have searched bob {counter} times')
     if counter < 5:
-        print('Not too shabby')
+        list1.append(f'Not too shabby')
     else:
-        print('You need to read more books')
+        list1.append(f'You need to read more books')
     return(list1)
 
 
