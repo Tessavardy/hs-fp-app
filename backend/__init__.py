@@ -3,7 +3,7 @@ def process_user_query(query_string):
     list1 = []
     counter = 0
     for word in names:
-             if word == 'www.google.es':
+             if word == 'Google':
                  counter += 1
     list1.append(f' You have searched in google {counter} times')
     if counter < 5:
